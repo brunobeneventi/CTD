@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+     <button onclick="calcularImc()">Calcular IMC</button>
+     <script type="text/javascript">
+    
+      function calcularImc(){
+      var peso = prompt('Qual seu peso?');
+      var altura = prompt('Qual sua Altura?');
+      var quadrado = (altura * altura);
+      var calculo = (peso/quadrado);
+      if(calculo<18.5){
+      alert("SEU PERFIL É: MAGREZA " + calculo);
+      }   
+      else if(calculo>=18.5 && calculo<24.9){
+      alert("SEU PERFIL É: NORMAL " + calculo);
+      }
+      else if(calculo>=25 && calculo<29.9) {
+      alert("SEU PERFIL É: SOBREPESO " + calculo);
+      }
+      else if(calculo>=30 && calculo<39.9) {
+      alert("SEU PERFIL É: OBESIDADE " + calculo);
+      }
+      else if (calculo>40)
+      alert("SEU PERFIL É: OBESIDADE GRAVE " + calculo);
+      }
+
+</script>
+
+</body>
+</html>

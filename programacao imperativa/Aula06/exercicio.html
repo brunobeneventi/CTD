@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Recapitulando</title>
+
+</head>
+
+<body>
+    
+    <script>
+        var nome = prompt("Qual seu nome?")
+        var idade = prompt("Qual sua idade?")
+        var altura = prompt("Qual sua altura? (em metros)")
+        var peso = prompt("Qual seu peso? (em kilos)")
+        var IMC = peso / (altura * altura)
+    
+        function calcularIMC() {
+            var resposta = IMC < 18.5 ? "Magreza, Obesidade Grau 0" :
+            IMC < 24.9 ? "Normal, Obesidade Grau 0" : 
+            IMC < 29.9 ? "Sobrepeso, Obesidade Grau I" : 
+            IMC < 39.9 ? "Obersidade, Obesidade Grau II" : "Obesidade Grave, Obesidade Grau III"
+            alert("Seu IMC É: " + IMC)
+            alert(resposta)
+        }
+        calcularIMC();
+    </script>
+
+
+</body>
+</html>
