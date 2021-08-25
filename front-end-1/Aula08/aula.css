@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.titulo-principal {
+color: rgb(172, 52, 52);
+font-family: 'Roboto', sans-serif;
+}
+
+div {
+background-color: rgb(111, 216, 134);
+height: 200px;
+background-image: url('https://tribunadejundiai.com.br/wp-content/uploads/2020/09/parque-da-cidade.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
