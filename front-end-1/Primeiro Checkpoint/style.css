@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("araraquara.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+header{
+    padding: 50px 0px 50px;
+    background-color: rgba(27, 0, 0, 0.582);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.titulo{
+    text-align: center;
+    color: orangered;
+    font-family: 'Lobster', cursive;
+    font-size: xxxx-large;
+}
+
+.descricao{
+    position: relative;
+    width: 90%;
+    top: 25%;
+    left: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: grey;
+    margin: 15px;
+    font-size: large;
+}
+
+.descricao p{
+    color: gold;
+    padding: 30px;
+    text-align: center;
+}
+
+.youtube{
+    top: 60%;
+    position: center;
+    left: 15%;
+    text-align: center;
+}
+
+.curiosidades{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin: 12px;
+    font-size: large;
+}
+
+footer p {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.insta{
+    position:relative;
+    width: 20px;
+    padding: 8px;
+    left: 48%;
+}
+
+.insta{
+    position:relative;
+    width: 30px;
+    padding: 8px;
+    left: 43%;
+}
