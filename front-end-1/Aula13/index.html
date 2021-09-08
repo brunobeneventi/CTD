@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    img{
+      width: 400px;
+    }
+
+    p {
+      font-size: x-large;
+      background-color: greenyellow;
+      width: 400px;
+      text-align: center;
+      }
+
+    input, select, textarea {
+      border-radius: 20px;
+      margin-left: 10px;
+      padding: 1px;
+      }
+
+    div 
+    {
+      background-color: grey;
+      width: 400px;
+      box-sizing: border-box;
+      margin: 5px;
+      border: 10px;
+    }
+
+</style>
+  
+</head>
+
+<body>
+
+
+  <form> 
+    
+    <img src="https://catracalivre.com.br/wp-content/thumbnails/dLG9GdWPqaGi2GE7Mayp2W1raOk=/wp-content/uploads/2020/03/mecado-livre-campanha-coronavirus-banner.jpg" alt="">
+    
+    <p><strong>Cadastro de Usuário</strong></p>
+
+    <strong>
+    <div>
+      <label for="name">Nome</label>
+      <input type="name" maxlenght="10" name="name" id="name" placeholder="Digite seu nome">
+    </div>  
+
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="seuemail@email.com">
+    </div>
+
+    <div>
+      <label for="socialNumber">CPF</label>
+      <input type="number" name="socialNumber" id="socialNumber">
+    </div>
+
+    <div>
+      <label for="birthDate">Data de nascimento</label>
+      <input type="date" name="birthDate" id="BirthDate">
+    </div>
+
+    <div>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <div>
+      <label for="passwordConfirm">Repita sua senha</label>
+      <input type="password" name="passwordConfirm" id="passwordConfirm">
+    </div>
+
+    <div>
+      <label for="city">Cidade</label>
+      <select name="city" id="city">
+        <option value="saoPaulo">São Paulo</option>
+        <option value="saoRoque">São Roque</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="comments">Comentários</label>
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    </div>
+
+    <button type="submit">Cadastrar</button>
+    <button type="reset">Limpar</button>
+    </strong>
+  </form>
+
+
+</body>
+</html>
