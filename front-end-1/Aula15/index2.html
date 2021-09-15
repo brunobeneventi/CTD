@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Doces</title>
+
+  <style>
+
+    body{
+    background-color: white;
+    }
+
+    img{
+      width: 400px;
+    }
+
+    p {
+      font-size: x-large;
+      background-color: grey;
+      width: 400px;
+      text-align: center;
+    
+      }
+
+    input, select, textarea {
+      border-radius: 20px;
+      margin-left: 10px;
+      padding: 1px;
+      }
+
+    div 
+    {
+      background-color: whitesmoke;
+      width: 400px;
+      box-sizing: border-box;
+      margin: 5px;
+      border: 10px;
+    }
+
+    fieldset {
+      width: fit-content;
+    }
+
+    button {
+      background-color: tomato;
+      color: black;
+      border-radius: 10px;
+    }
+
+    button:hover {
+    background-color: aqua;
+    }
+
+    input:focus {
+    background-color: grey;
+     }
+
+     p::first-letter {
+  color: greenyellow;
+  font-size: xxlarge;
+}
+
+input:disabled{
+  background-color: cyan;
+}
+
+</style>
+  
+</head>
+
+<body>
+
+
+  <form> 
+    
+    <img src="https://www.agenciaeplus.com.br/wp-content/uploads/2020/09/loja_virtual_de_doces.jpg" alt="">
+    
+    <p><strong>Faça seu pedido:</strong></p>
+
+      <fieldset>
+
+        <legend><strong>Cadastro Pessoal</strong></legend>
+     
+    <strong>
+  
+      <div>
+      <label for="name">Nome</label>
+      <input type="name" maxlenght="10" name="name" id="name" placeholder="Digite seu nome">
+    </div>  
+
+    <div>
+      <label for="name2">Sobrenome</label>
+      <input type="name2" maxlenght="10" name="name2" id="name2" placeholder="Digite seu sobrenome">
+    </div>  
+
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="seuemail@email.com">
+    </div>
+
+    <div>
+      <label for="socialNumber">CPF</label>
+      <input type="number" name="socialNumber" id="socialNumber">
+    </div>
+
+    <div>
+      <label for="birthDate">Data de nascimento</label>
+      <input type="date" name="birthDate" id="BirthDate">
+    </div>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend><strong>Dados do Pedido</strong></legend>
+    <div>
+
+      <label for="doces">Doces</label>
+      <select name="doces" id="doces">
+        <optgroup label="Brigadeiro">
+        <option value="brigadeiro">Brigadeiro Tradicional</option>
+        <option value="brigadeiro">Brigadeiro Branco</option>
+        </optgroup>
+        <optgroup label="Bombom">
+          <option value="bombom">Bombom de Morango</option>
+          <option value="bombom">Bombom de Leite Ninho</option>
+          </optgroup>
+          </select>
+          </div>
+
+          <div>
+            <input type="radio" name="option" id="option">
+            <label for="unit">05 unidades</label>
+            <input type="radio" name="option" id="option1">
+            <label for="unit">10 unidades</label>
+            <input type="radio" name="option" id="option1">
+            <label for="unit">15 unidades</label>
+     </div>
+
+      </select>
+    </div>
+  
+  </fieldset>
+
+  <fieldset>
+      
+      <legend>Endereço</legend>
+
+      <div>
+        <label for="city">Cidade</label>
+        <input required type="city" list="citys" name="city" id="city">
+      <datalist id="citys">
+        <option value="São Paulo"></option>
+        <option value="Araraquara"></option>
+        <option value="São Carlos"></option>
+        <option value="Bauru"></option>
+      </datalist>
+      
+      <div>
+        <label for="rua">Endereço</label>
+        <input type="rua" maxlenght="10" name="rua" id="rua">
+      </div>  
+
+      <div>
+        <label for="bairro">Bairro</label>
+        <input type="bairro" maxlenght="10" name="bairro" id="bairro">
+      </div>  
+  
+      <div>
+          <label for="número">Número</label>
+          <input type="number" name="número" id="número">
+      </div>
+
+      <div>
+        <label for="cep">CEP</label>
+        <input type="number" name="cep" id="cep">
+    </div>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Formas de Pagamento</legend>
+    <div>
+      <input type="checkbox" name="pay" id="pay">
+      <label for="pay">Dinheiro</label>
+      <input type="checkbox" name="pay" id="pay">
+      <label for="pay">Cartão de Crédito</label>
+      <input type="checkbox" name="pay" id="pay">
+      <label for="pay">Cartão de Débito</label>
+    </div>
+    </fieldset>
+    
+    <button type="submit">Finalizar Pedido</button>
+    <button type="reset">Limpar Campos</button>
+    </strong>
+  </form>
+  
+
+
+</body>
+</html>

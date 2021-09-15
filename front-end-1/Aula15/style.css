@@ -1,0 +1,37 @@
+button {
+    border: none;
+    padding: 12px 24 px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+input {
+  background-color: blue;
+  border: none;
+}
+
+input:focus {
+  background-color: burlywood;
+}
+
+input:disabled{
+  background-color: cyan;
+}
+
+input:valid{
+  background-color: darkgrey;
+}
+
+input:invalid{
+  background-color: darkorange;
+}
+
+p::first-letter {
+  color: greenyellow;
+  font-size: large;
+}
