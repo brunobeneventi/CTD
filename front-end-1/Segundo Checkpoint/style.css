@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+form {
+  font-family: 'Scheherazade New', serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  gap: 30px;
+}
+
+h1 .imagem {
+  width: 60px;
+}
+
+legend .dados{
+  width: 30px;
+}
+
+legend .dados2{
+  width: 35px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 14px;
+  background-color: grey;
+  padding: 12px;
+  border-radius: 5px;
+  border: #000000 solid 5px;
+  text-align: center;
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+}
+
+.maiordeidade {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#opcao1 {
+  margin-left: 50px;
+  padding: 10px;
+}
+
+body {
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+legend {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: grey;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+}
+
+div {
+  margin: 10px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: solid 5px black;
+  background-color: grey;
+  border-radius: 5px;
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+}
+
+#name,
+#email {
+  width: 100%;
+  height: 30px;
+  padding-left: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+#telefone,
+#birthDate,
+#interesse {
+  height: 30px;
+  padding-left: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+button {
+  height: 50px;
+  width: 120px;
+  border: solid 5px black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  background-color: whitesmoke;
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.interesse {
+  margin-right: 12px;
+  padding: 10px;
+}
+
+button:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  filter: brightness(1);
+  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
+}
+
+.icone {
+  position: relative;
+  width: 60px;
+  padding: 10px;
+  left: 40.5%;
+}
