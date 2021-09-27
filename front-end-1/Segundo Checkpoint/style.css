@@ -19,11 +19,11 @@ h1 .imagem {
   width: 60px;
 }
 
-legend .dados{
+legend .dados {
   width: 30px;
 }
 
-legend .dados2{
+legend .dados2 {
   width: 35px;
 }
 
@@ -33,7 +33,7 @@ h1 {
   margin-bottom: 14px;
   background-color: grey;
   padding: 12px;
-  border-radius: 5px;
+  border-radius: 3px;
   border: #000000 solid 5px;
   text-align: center;
   background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
@@ -76,7 +76,7 @@ div {
 fieldset {
   border: solid 5px black;
   background-color: grey;
-  border-radius: 5px;
+  border-radius: 3px;
   background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
 }
 
@@ -86,7 +86,7 @@ fieldset {
   height: 30px;
   padding-left: 12px;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 
 #telefone,
@@ -110,7 +110,7 @@ button {
   height: 50px;
   width: 120px;
   border: solid 5px black;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: bold;
   font-size: 20px;
   transition-duration: 0.5s;
@@ -133,7 +133,6 @@ button:hover {
   cursor: pointer;
   transition: ease-in-out 0.5s;
   filter: brightness(1);
-  background-image: url(https://emc.acidadeon.com/dbimagens/por_do_1024x576_23072020130829.webp);
 }
 
 .icone {

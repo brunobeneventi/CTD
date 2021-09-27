@@ -7,7 +7,7 @@
     <title>Checkpoint 02</title>
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Grupo: Bruno Beneventi/Kevin Miranda -->
+    <!-- Grupo: Bruno Beneventi / Kevin Miranda / Mariana Dias Arantes -->
   </head>
 
   <body>
@@ -18,7 +18,10 @@
       </h1>
 
       <fieldset>
-        <legend> <img class="dados" src="dados.png" /> Dados Cadastrais</legend>
+        <legend>
+          <img class="dados" src="dados.png" />
+          Dados Cadastrais
+        </legend>
 
         <div>
           <label for="name">Nome:</label>
@@ -55,22 +58,25 @@
         </div>
 
         <div>
-          <label for="birthDate">Data de Nascimento:</label>
-          <input type="birthDate" id="birthDate" name="birthDate" required />
+          <label for="date">Data de Nascimento:</label>
+          <input type="date" id="date" name="date" required />
         </div>
 
         <div class="maiordeidade">
           <p>Você tem mais de 18 anos?</p>
-          <input type="radio" name="opcao" unchecked id="opcao" required />
-          <label for="opcao">Sim</label>
+          <input type="radio" name="option" id="option" />
+          <label for="option">Sim</label>
 
-          <input type="radio" name="opcao1" unchecked id="opcao1" required />
-          <label for="opcao1">Não</label>
+          <input type="radio" name="option1" id="option1" />
+          <label for="option1">Não</label>
         </div>
       </fieldset>
 
       <fieldset>
-        <legend><img class="dados2" src="interesse.png"/> Interesses</legend>
+        <legend>
+          <img class="dados2" src="interesse.png" />
+          Interesses
+        </legend>
         <div>
           <label for="interesse">
             Selecione um ponto de interesse na cidade:
